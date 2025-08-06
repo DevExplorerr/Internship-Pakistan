@@ -17,11 +17,13 @@ class MyApp extends StatelessWidget {
       title: "My First Flutter App",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-          primarySwatch: Colors.blue,
-          textSelectionTheme: TextSelectionThemeData(
-              cursorColor: primaryColor,
-              selectionColor: blackColor.withOpacity(0.3),
-              selectionHandleColor: blackColor)),
+        primarySwatch: Colors.blue,
+        textSelectionTheme: TextSelectionThemeData(
+          cursorColor: primaryColor,
+          selectionColor: blackColor.withOpacity(0.3),
+          selectionHandleColor: blackColor,
+        ),
+      ),
       home: SplashScreen(),
     );
   }

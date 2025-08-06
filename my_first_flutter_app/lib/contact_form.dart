@@ -40,36 +40,38 @@ class _ContactFormState extends State<ContactForm> {
           ),
         ),
       ),
-      body: Padding(
-        padding: EdgeInsets.symmetric(horizontal: 30, vertical: 25),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const SizedBox(height: 20),
-            //Name
-            _buildLabelText("Full Name"),
-            const SizedBox(height: 5),
-            _buildTextField(
-                textInputType: TextInputType.name, controller: nameController),
-            const SizedBox(height: 30),
-            //Email
-            _buildLabelText("Email"),
-            const SizedBox(height: 5),
-            _buildTextField(
-                textInputType: TextInputType.emailAddress,
-                controller: emailController),
-            const SizedBox(height: 30),
-            //Message
-            _buildLabelText("Message"),
-            const SizedBox(height: 5),
-            _buildTextField(
-                textInputType: TextInputType.multiline,
-                controller: messageController,
-                maxLines: 4),
-            //Submit Button
-            const SizedBox(height: 30),
-            _buildSubmitButton()
-          ],
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: EdgeInsets.symmetric(horizontal: 30, vertical: 25),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SizedBox(height: 20),
+              //Name
+              _buildLabelText("Full Name"),
+              const SizedBox(height: 5),
+              _buildTextField(
+                  textInputType: TextInputType.name, controller: nameController),
+              const SizedBox(height: 30),
+              //Email
+              _buildLabelText("Email"),
+              const SizedBox(height: 5),
+              _buildTextField(
+                  textInputType: TextInputType.emailAddress,
+                  controller: emailController),
+              const SizedBox(height: 30),
+              //Message
+              _buildLabelText("Message"),
+              const SizedBox(height: 5),
+              _buildTextField(
+                  textInputType: TextInputType.multiline,
+                  controller: messageController,
+                  maxLines: 4),
+              //Submit Button
+              const SizedBox(height: 30),
+              _buildSubmitButton()
+            ],
+          ),
         ),
       ),
     );
