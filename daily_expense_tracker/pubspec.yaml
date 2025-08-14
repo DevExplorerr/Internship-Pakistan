@@ -1,0 +1,34 @@
+name: daily_expense_tracker
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  flutter:
+    sdk: flutter
+  
+  google_fonts: ^6.3.0
+  intl: ^0.20.2
+  smooth_page_indicator: ^1.2.1
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.4  
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_logo.png"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/app_logo.png
