@@ -1,47 +1,64 @@
-Daily Expense Tracker (UI Only)
+# Daily Expense Tracker (UI Only)
 
-A Flutter UI app for tracking daily expenses, designed during the Internship Pakistan Summer Virtual Internship 2025. This project focuses on clean, responsive, and modern UI.
+A Flutter UI app for tracking daily expenses, created during the **Internship Pakistan Summer Virtual Internship 2025**. This project focuses on a **clean, modern, and responsive UI** to record daily expenses effortlessly.
 
-⚠️ Note: This is UI only. No backend or API integration included.
+⚠️ **Note:** This is a UI-only project. **No backend or API integration** is included.
 
-Features:
-Splash Screen: App logo, title, and “Internship Pakistan” at the bottom.
-Onboarding Screens: 2–3 slides introducing the app.
-Login / Sign-Up Screen: Email & password fields with navigation links.
+---
 
-Home Screen:
-Total Balance card (Income & Expense sections)
-Recent Expenses list (dummy data)
-Floating Action Button (FAB) for adding expense
+## Features
 
-Add Expense Screen: Input fields for expense title, amount, date picker (UI only), and Save button.
+### Splash Screen
+- App logo and title.
+- “Internship Pakistan” text at the bottom.
 
-Expense Details Screen: Shows title, amount, date, and notes. Back button to Home Screen.
+### Onboarding Screens
+- 2–3 slides introducing app features:
+  - "Track your expenses easily"
+  - "Manage your budget smartly"
+  - "Start your financial journey"
 
-Screenshots
+### Login / Sign-Up Screen
+- Email & password fields.
+- Navigation links for Login / Sign-Up.
 
-[Splash Screen]("")	
-[Home Screen]("")	
-[Add Expense Screen]("") 	
-[Expense Details Screen]("")
+### Home Screen
+- **Total Balance Card** with Income & Expense sections.
+- **Recent Expenses List** (dummy data).
+- **Floating Action Button (FAB)** for adding expenses.
 
-Dependencies
+### Add Expense Screen
+- Input fields for:
+  - Expense title
+  - Amount
+  - Date picker (UI only)
+- Save button (UI only)
 
-flutter
-google_fonts
-intl
-smooth_page_indicator
+### Expense Details Screen
+- Displays:
+  - Title
+  - Amount
+  - Date
+  - Notes
+- Back button to return to Home Screen.
 
-Installation
+---
 
-Clone the repo:
-git clone https://github.com/DevExplorerr/Internship-Pakistan.git
+## Screenshots
 
-Navigate to the project folder:
-cd Internship-Pakistan
+| Splash Screen | Onboarding Screen | Login Screen |
+|---------------|-----------------|--------------|
+| ![Splash](assets/splash_screen.png) | ![Onboarding](assets/onboarding_screen.png) | ![Login](assets/login_screen.png) |
 
-Get dependencies:
-flutter pub get
+| Home Screen | Add Expense Screen | Expense Details Screen |
+|-------------|-----------------|----------------------|
+| ![Home](assets/home_screen.png) | ![Add Expense](assets/add_expense_screen.png) | ![Expense Details](assets/expense_detail_screen.png) |
 
-Run the app:
-flutter run
+---
+
+## Dependencies
+
+- [flutter](https://flutter.dev/)
+- [google_fonts](https://pub.dev/packages/google_fonts)
+- [intl](https://pub.dev/packages/intl)
+- [smooth_page_indicator](https://pub.dev/packages/smooth_page_indicator)
