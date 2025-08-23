@@ -18,7 +18,7 @@ Users can add, edit, delete, search, and mark tasks as complete. The app uses lo
 ---
 
 ## Preview
-- [Splash Screen](assets/splash_screen.png)
-- [Home Screen](assets/home_screen.png)
-- [Add Task Screen](assets/add_task_screen.png)
-- [Edit Screen](assets/edit_task_screen.png)
+- ![Splash Screen](assets/splash_screen.png)
+- ![Home Screen](assets/home_screen.png)
+- ![Add Task Screen](assets/add_task_screen.png)
+- ![Edit Screen](assets/edit_task_screen.png)
