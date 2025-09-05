@@ -15,7 +15,7 @@ Cookify is a Flutter-based mobile application that allows users to browse recipe
 
 ## Screenshots
 
-![Splash Screen](assets/home.png)
+![Splash Screen](assets/splash.png)
 ![Home Screen](assets/home.png)
 ![Search Screen](assets/search.png)
 ![Favorite Screen](assets/favorite.png)
