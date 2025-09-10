@@ -49,6 +49,7 @@ class HomeContent extends StatelessWidget {
               ),
               const SizedBox(height: 30),
               SearchSection(
+                readOnly: true,
                 onTap: () {
                   Navigator.of(context).push(
                     PageRouteBuilder(

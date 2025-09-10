@@ -6,11 +6,13 @@ class SearchSection extends StatelessWidget {
   final TextEditingController? controller;
   final VoidCallback? onTap;
   final FocusNode? focusNode;
+  final bool readOnly;
   const SearchSection({
     super.key,
     this.controller,
     this.onTap,
     this.focusNode,
+    required this.readOnly,
   });
 
   @override
@@ -24,6 +26,7 @@ class SearchSection extends StatelessWidget {
               controller: controller,
               onTap: onTap,
               focusNode: focusNode,
+              readOnly: readOnly,
               keyboardType: TextInputType.text,
               textInputAction: TextInputAction.next,
               decoration: InputDecoration(

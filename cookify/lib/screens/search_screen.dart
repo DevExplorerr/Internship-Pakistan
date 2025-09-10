@@ -27,9 +27,6 @@ class _SearchScreenState extends State<SearchScreen> {
         query = _controller.text.trim();
       });
     });
-    Future.delayed(const Duration(milliseconds: 300), () {
-      FocusScope.of(context).requestFocus(_focusNode);
-    });
   }
 
   @override
@@ -46,18 +43,27 @@ class _SearchScreenState extends State<SearchScreen> {
       return title.contains(query.toLowerCase());
     }).toList();
 
-    return Scaffold(
-      backgroundColor: whiteColor,
-      appBar: _buildAppBar(context),
-      body: Column(
-        children: [
-          const SizedBox(height: 15),
-          SearchSection(controller: _controller, focusNode: _focusNode),
-          const SizedBox(height: 20),
+    return GestureDetector(
+      onTap: () {
+        FocusScope.of(context).unfocus();
+      },
+      child: Scaffold(
+        backgroundColor: whiteColor,
+        appBar: _buildAppBar(context),
+        body: Column(
+          children: [
+            const SizedBox(height: 15),
+            SearchSection(
+              controller: _controller,
+              focusNode: _focusNode,
+              readOnly: false,
+            ),
+            const SizedBox(height: 20),
 
-          // Show results
-          Expanded(child: _buildResults(filtered)),
-        ],
+            // Show results
+            Expanded(child: _buildResults(filtered)),
+          ],
+        ),
       ),
     );
   }
