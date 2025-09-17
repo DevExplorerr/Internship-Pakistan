@@ -1,4 +1,4 @@
-# Flutter Internship – Week 1, 2, 3, 4, 5 & 6 Tasks  
+# Flutter Internship - Week 1, 2, 3, 4, 5 & 6 Tasks  
 
 Welcome to my internship project repository for **Internship Pakistan (Flutter Development - Summer 2025)**.  
 This repository contains all the screens and features developed during **Week 1 - Week 6** tasks, focusing on **UI, navigation, state management, Firebase basics, and local storage in Flutter**.  
