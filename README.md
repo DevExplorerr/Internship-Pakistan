@@ -57,7 +57,7 @@ This repository contains all the screens and features developed during **Week 1 
 - **My Registrations Screen** - Displays all registered events with options to view ticket, bookmark event or unregister.  
 - **Search & Filter** - Search events by name/date for easier navigation.  
 - **QR Code Generation** - Each registered event generates a **unique QR code** (via `qr_flutter`) for check-in purposes.  
-- **Firebase Authentication ** - Login & Signup integration with Firebase.  
+- **Firebase Authentication** - Login & Signup integration with Firebase.  
 - **Favorites (Bookmark Feature)** - Users can bookmark/save events for quick access.  
 - **UI/UX** - Clean responsive design, consistent colors, shadows, and rounded corners for premium look.  
 
